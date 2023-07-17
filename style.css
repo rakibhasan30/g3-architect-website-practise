@@ -192,13 +192,13 @@ nav ul li a {
   border-left: 5px solid var(--primary-accent-color);
 }
 .third-left-section > p {
-  padding-top: 2rem;
+  padding-top: 2.5rem;
 }
 .third-left-section p {
   padding-top: 1rem;
 }
 .cards {
-  border-left: 3px solid var(--paragraph-primary-color);
+  border-left: 2px solid var(--paragraph-primary-color);
   margin-top: 1rem;
   border-radius: 8px;
   background: #fff;
@@ -227,6 +227,39 @@ nav ul li a {
   color: #fff;
   margin: 0 auto;
   text-align: center;
+}
+
+.facts-section {
+  padding: 8rem 14rem;
+  text-align: left;
+}
+.facts-section h2 {
+  text-align: left;
+}
+.facts-section-paragraph {
+  width: 600px;
+  text-align: left;
+  margin-bottom: 4rem;
+}
+
+.facts-box-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.facts-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  border: 1px solid var(--primary-accent-color);
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.facts-icon {
+  margin-bottom: 1rem;
 }
 /* Media Queries */
 
